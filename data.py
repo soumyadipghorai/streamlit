@@ -15,7 +15,7 @@ value_dict = {
     "city" : ["kolkata"]
 }
 
-data = pd.read_csv('netflix_titles.csv')
+data = pd.read_csv('dataset/netflix_titles.csv')
 # print(data) ## prints in the console 
 
 st.dataframe(a)
